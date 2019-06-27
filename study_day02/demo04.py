@@ -11,3 +11,7 @@ print(df)
 print('_'*100)
 print(type(df), type(df.values))
 
+df = pd.read_csv('../data/groupby.csv')
+df.info()
+print(df.head(3))
+
