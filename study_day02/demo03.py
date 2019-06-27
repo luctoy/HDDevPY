@@ -4,7 +4,7 @@ from PIL import Image
 
 im = Image.open('../data/phone.jpg')
 im = np.array(im)
-print(im)
+print(im, im.dtype)
 im = [255, 255, 255]-im
 print(im)
 
