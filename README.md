@@ -18,3 +18,4 @@ Day04:
 from tensorflow.examples.tutorials.mnist import input_data
 mnist = input_data.read_data_sets("../data/input_data",one_hot=True)
 练习2：使用上一个练习保存的结果
+练习3：One-Hot编码: 可以把文字映射到数字的编码方式
